@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/ReactInternship/static/css/main.ce71d1ea.css",
-    "main.js": "/ReactInternship/static/js/main.8ca34307.js",
+    "main.css": "/ReactInternship/static/css/main.1c26eeaf.css",
+    "main.js": "/ReactInternship/static/js/main.e0657d22.js",
     "static/media/9350.png": "/ReactInternship/static/media/9350.15c139cd182441a3b222.png",
     "static/media/9352.jpg": "/ReactInternship/static/media/9352.237d372d1d306267b5fd.jpg",
     "static/media/9354.jpg": "/ReactInternship/static/media/9354.5bf1309155f915c90f03.jpg",
     "index.html": "/ReactInternship/index.html",
-    "main.ce71d1ea.css.map": "/ReactInternship/static/css/main.ce71d1ea.css.map",
-    "main.8ca34307.js.map": "/ReactInternship/static/js/main.8ca34307.js.map"
+    "main.1c26eeaf.css.map": "/ReactInternship/static/css/main.1c26eeaf.css.map",
+    "main.e0657d22.js.map": "/ReactInternship/static/js/main.e0657d22.js.map"
   },
   "entrypoints": [
-    "static/css/main.ce71d1ea.css",
-    "static/js/main.8ca34307.js"
+    "static/css/main.1c26eeaf.css",
+    "static/js/main.e0657d22.js"
   ]
 }
