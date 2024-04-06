@@ -7,7 +7,6 @@ import {
   faUser,
   faPersonCane,
   faPersonChalkboard,
-  faUsersLine,
   faArrowLeft,
 } from "@fortawesome/free-solid-svg-icons";
 import { useNavigate } from "react-router-dom";
@@ -24,16 +23,14 @@ export const InterestForm = () => {
   const handleContinue = () => {
     // Perform any necessary actions with the selected option
     console.log(`Selected option: ${selectedOption}`);
-
     // Navigate to the interest selection page
     navigate("/DoubleCheck");
   };
   const handleBack = () => {
     // Perform any necessary actions with the selected option
     console.log(`Selected option: ${selectedOption}`);
-
     // Navigate to the interest selection page
-    navigate("/ReactIntenship");
+    navigate("/ReactInternship");
   };
 
   return (

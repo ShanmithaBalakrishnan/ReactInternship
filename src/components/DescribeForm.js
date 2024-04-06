@@ -20,40 +20,6 @@ export const DescribeForm = () => {
     console.log(`Selected option: ${option}`);
   };
 
-  // const handleOptionClick = (option) => {
-  //   setSelectedOption(option);
-  //   option.onClick();
-  // };
-
-  // const options = [
-  //   {
-  //     icon: faUserGraduate,
-  //     label: "Student or soon to be enrolled",
-  //     onClick: handleStudentOption,
-  //   },
-  //   {
-  //     icon: faUserTie,
-  //     label: "Professional pursuing a career",
-  //     onClick: handleProfessionalOption,
-  //   },
-  //   {
-  //     icon: faUser,
-  //     label: "Parent of a school-age child",
-  //     onClick: handleParentOption,
-  //   },
-  //   {
-  //     icon: faPersonCane,
-  //     label: "Lifelong learner",
-  //     onClick: handleLifelongLearnerOption,
-  //   },
-  //   {
-  //     icon: faPersonChalkboard,
-  //     label: "Teacher",
-  //     onClick: handleTeacherOption,
-  //   },
-  //   { icon: faUsersLine, label: "Other", onClick: handleOtherOption },
-  // ];
-
   const handleContinue = () => {
     // Perform any necessary actions with the selected option
     console.log(`Selected option: ${selectedOption}`);
@@ -127,35 +93,12 @@ export const DescribeForm = () => {
           </div>
         </button>
       </div>
-      {/* <div>
-        {options.map((option, index) => (
-          <button
-            key={index}
-            onClick ={() => handleOptionClick(option)}
-            style={{
-              backgroundColor: selectedOption ? "orange" : "inherit",
-              width: "500px",
-              padding: "10px 20px",
-              display: "block",
-              margin: "5px",
-              border: "none",
-              outline: "1px solid #777676",
-              borderRadius: "4px",
-              cursor: "pointer",
-            }}
-          >
-            <FontAwesomeIcon icon={option.icon} /> {option.label}
-          </button>
-        ))}
-      </div> */}
       <button
         className="bg-gray-300 hover:bg-gray-900 text-gray-900 hover:text-gray-100 font-bold py-2 px-4 rounded mt-8"
         onClick={() => handleContinue("continue")}
-        disabled={!selectedOption}
       >
         Continue
       </button>
     </div>
   );
 };
-

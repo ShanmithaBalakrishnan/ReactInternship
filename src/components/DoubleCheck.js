@@ -8,13 +8,8 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 
 export const DoubleCheck = () => {
-  const [selectedOption, setSelectedOption] = useState(null);
+  const [selectedOption] = useState(null);
   const navigate = useNavigate();
-
-  const handleOptionSelection = (option) => {
-    setSelectedOption(option);
-    console.log(`Selected option: ${option}`);
-  };
 
   const handleContinue = () => {
     console.log(`Selected option: ${selectedOption}`);
@@ -37,7 +32,7 @@ export const DoubleCheck = () => {
       <div className="bg-green-500 h-1 mb-8 green-bar3"></div>
       <div className="container">
         <div className="left">
-          <img src={weigh} />
+          <img src={weigh} alt="Weight" />
         </div>
         <div className="right">
           <h2 className="text-2xl font-bold mb-8">You're in right place</h2>

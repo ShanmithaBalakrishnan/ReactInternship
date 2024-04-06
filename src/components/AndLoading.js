@@ -5,26 +5,7 @@ import CircularProgress from '@mui/material/CircularProgress';
 import "react-circular-progressbar/dist/styles.css";
 
 export const AndLoading = () => {
-  const [selectedOption, setSelectedOption] = useState(null);
   const navigate = useNavigate();
-
-  const handleOptionSelection = (option) => {
-    setSelectedOption(option);
-    console.log(`Selected option: ${option}`);
-  };
-
-  const handleContinue = () => {
-    console.log(`Selected option: ${selectedOption}`);
-    navigate("/DecidePath");
-  };
-
-  const handleBack = () => {
-    // Perform any necessary actions with the selected option
-    console.log(`Selected option: ${selectedOption}`);
-
-    // Navigate to the interest selection page
-    navigate("/Loading");
-  };
 
   const [progress, setProgress] = React.useState(0);
 

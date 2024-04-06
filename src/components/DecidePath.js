@@ -12,18 +12,6 @@ export const DecidePath = () => {
     console.log(`Selected option: ${option}`);
   };
 
-  const handleContinue = () => {
-    console.log(`Selected option: ${selectedOption}`);
-    navigate("/DoubleCheck");
-  };
-  const handleBack = () => {
-    // Perform any necessary actions with the selected option
-    console.log(`Selected option: ${selectedOption}`);
-
-    // Navigate to the interest selection page
-    navigate("/");
-  };
-
   return (
     <div className="flex flex-col items-center justify-center h-screen">
       <h2 className="text-2xl font-bold mb-8">
@@ -49,7 +37,7 @@ export const DecidePath = () => {
               Foundation Math Build yout foundational skills in algebra,
               geometry, and probability.
             </span>
-            <img src={Data} style={{ height: "150px", width: "150px" }} />
+            <img src={Data} alt="Data" style={{ height: "150px", width: "150px" }} />
           </div>
         </button>
       </div>

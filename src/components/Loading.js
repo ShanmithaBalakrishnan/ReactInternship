@@ -9,11 +9,6 @@ export const Loading = () => {
   const [selectedOption, setSelectedOption] = useState(null);
   const navigate = useNavigate();
 
-  const handleOptionSelection = (option) => {
-    setSelectedOption(option);
-    console.log(`Selected option: ${option}`);
-  };
-
   const handleContinue = () => {
     console.log(`Selected option: ${selectedOption}`);
     navigate("/AndLoading");
@@ -35,7 +30,7 @@ export const Loading = () => {
       <div className="bg-green-500 h-1 mb-8 green-bar5"></div>
       <div className="container">
         <div className="left1">
-          <img src={Art} />
+          <img src={Art} alt="Art"/>
         </div>
         <div className="right1">
           <h2 className="text-2xl font-bold mb-8">You're on your way!</h2>
